@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deepak Chaudhary | Graphic Designer, Logo and Branding</title>
+<meta name="description" content="Deepak Chaudhary, graphic designer with 5 years of experience in logo design, branding and social media design.">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Bebas+Neue&family=Playfair+Display:wght@500;700&family=Space+Grotesk:wght@500;700&family=Fredoka:wght@500;600&family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c0816;--panel:#171026;--line:#2c2147;--text:#f4f0ff;--muted:#a79fc0;--pink:#ff3d81;--yellow:#ffd23f;--cyan:#2de2e6;--violet:#7b4dff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+*,*:before,*:after{box-sizing:inherit}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.6 "DM Sans",system-ui,sans-serif;background-image:radial-gradient(600px 400px at 90% 0,#7b4dff33,transparent),radial-gradient(500px 400px at 0 35%,#ff3d8122,transparent)}
+h1,h2,h3{font-family:Syne,"Arial Black",sans-serif;line-height:1.05;margin:0}
+main{max-width:1000px;margin:0 auto;padding:0 20px}
+section{padding:48px 0}
+h2{font-size:clamp(28px,6vw,44px);margin-bottom:8px}
+.sub{color:var(--muted);margin:0 0 24px;max-width:56ch}
+.hero{padding:44px 0 16px}
+.hero h1{font-size:clamp(64px,22vw,170px);font-weight:800;letter-spacing:-.03em;background:linear-gradient(100deg,var(--pink),var(--yellow) 45%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:clamp(19px,4vw,26px);max-width:32ch;margin:12px 0 24px}
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;background:var(--pink);color:#fff;font-weight:500;text-decoration:none;margin:0 10px 10px 0;border:0;font-size:17px;cursor:pointer}
+.btn.alt{background:transparent;border:2px solid var(--cyan);color:var(--cyan)}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.hr{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.hr span{width:64px;height:64px;border-radius:18px;padding:11px}
+svg{display:block;overflow:visible}
+svg .a{fill:var(--a)}svg .b{fill:var(--b)}svg .c{fill:var(--c)}
+svg .s{fill:none;stroke:var(--c);stroke-width:6;stroke-linecap:round}
+svg .t{fill:none;stroke:var(--b);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+svg.before *{fill:none;stroke:#8a84a3;stroke-width:1.5;stroke-dasharray:3 3}
+.lk{display:flex;align-items:center;gap:10px}.lk svg{width:44px;height:44px}.lk b{font-weight:500;font-size:22px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.tile{border:2px solid transparent;border-radius:22px;padding:26px 10px 20px;cursor:pointer;color:#fff;display:flex;justify-content:center}
+.tile[aria-pressed=true]{border-color:var(--yellow)}
+.tile .lk{flex-direction:column;text-align:center;gap:12px}.tile .lk svg{width:84px;height:84px}
+.kit{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:26px;padding:20px}
+.card h3{font-size:19px;margin-bottom:2px}.card small{color:var(--muted);display:block;margin-bottom:12px}
+.wide{grid-column:1/-1}
+.logo{width:100%;aspect-ratio:1.4;border:0;border-radius:20px;cursor:pointer;color:#fff;display:flex;align-items:center;justify-content:center}
+.logo .lk svg{width:76px;height:76px}.logo .lk b{font-size:30px}
+.pop svg{animation:pop .7s cubic-bezier(.3,1.6,.5,1)}
+@keyframes pop{0%{transform:scale(.5) rotate(-90deg)}100%{transform:none}}
+.cmp{position:relative;aspect-ratio:1.4;background:#0c0816;border-radius:20px;overflow:hidden}
+.cmp svg{position:absolute;inset:14%;width:72%;height:72%;left:14%;top:14%}
+.cmp .after{clip-path:inset(0 0 0 var(--x,50%))}
+.cmp i{position:absolute;top:0;bottom:0;left:var(--x,50%);width:3px;background:var(--yellow);z-index:2}
+input[type=range]{width:100%;margin-top:12px;accent-color:var(--yellow)}
+.lab{display:flex;justify-content:space-between;font-size:14px;color:var(--muted)}
+.sw{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.sw button{font:inherit;border:1px solid #ffffff33;border-radius:16px;padding:24px 10px 10px;text-align:left;cursor:pointer;font-weight:500}
+.sw span{display:block;font-size:13px;font-weight:400}
+.hint{font-size:14px;color:var(--muted);margin-top:10px}
+.bc{aspect-ratio:7/4;border-radius:14px;padding:6%;display:flex;flex-direction:column;justify-content:center;margin-bottom:12px;box-shadow:0 10px 24px #0006;font-size:14px}
+.bc:last-child{margin:0}.bc .lk svg{width:40px;height:40px}.bc b{font-size:17px}
+.post,.ban{container-type:inline-size;position:relative;overflow:hidden;border-radius:22px}
+.post{aspect-ratio:1;padding:7%;display:flex;flex-direction:column;justify-content:space-between}
+.post i,.ban i{position:absolute;right:-12%;top:-14%;width:55%;aspect-ratio:1;border-radius:50%;opacity:.3}
+.post .lk,.post h4,.post span{position:relative}
+.post .lk svg{width:9cqw;height:9cqw}.post .lk b{font-size:5.4cqw}
+.post h4{font-size:11cqw;line-height:1.02;margin:0;font-weight:400}
+.post span,.ban span{align-self:flex-start;display:inline-block;font:500 4.4cqw "DM Sans",sans-serif;padding:2cqw 4cqw;border-radius:99px}
+.ban{aspect-ratio:16/6;display:flex;align-items:center;justify-content:space-between;padding:4% 6%}
+.ban h4{font-size:6.4cqw;line-height:1.05;margin:0 0 2cqw;font-weight:400;max-width:15ch}
+.ban span{font-size:max(12px,2.2cqw);padding:1cqw 2.4cqw}
+.ban svg{width:20cqw;height:20cqw;position:relative}
+.feed{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.stack{display:grid;gap:16px}
+.steps{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));counter-reset:s}
+.step{background:var(--panel);border-radius:22px;padding:20px;border-top:5px solid var(--c);counter-increment:s}
+.step:before{content:counter(s);font:800 32px Syne,sans-serif;color:var(--c);display:block}
+.step h3{font-size:19px;margin:2px 0 4px}.step p{margin:0;color:var(--muted);font-size:16px}
+.rev{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.rev blockquote{margin:0;background:var(--panel);border-radius:22px;padding:20px;border:1px solid var(--line)}
+.rev p{margin:0 0 10px}.rev cite{font-style:normal;color:var(--cyan);font-size:15px}
+.contact{background:linear-gradient(120deg,var(--violet),var(--pink));border-radius:28px;padding:34px 22px;display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.contact p{margin:8px 0}.contact a:not(.btn){color:#fff;font-weight:500}
+.contact input,.contact textarea{width:100%;font:inherit;padding:13px 15px;border-radius:14px;border:0;margin-bottom:10px;background:#0c0816cc;color:var(--text)}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:9;background:#25d366;color:#05260f;font-weight:500;padding:13px 20px;border-radius:999px;text-decoration:none;box-shadow:0 8px 24px #0008}
+footer{text-align:center;color:var(--muted);font-size:14px;padding:10px 0 90px}
+@media (prefers-reduced-motion:reduce){.pop svg{animation:none}html{scroll-behavior:auto}}
+</style></head><body><main>
+<section class="hero">
+<h1>Deepak</h1>
+<p>Graphic designer. I turn small businesses into brands people remember.</p>
+<a class="btn" href="#logos">See my logos</a><a class="btn alt" href="#contact">Hire me</a>
+<div class="hr" id="hr"></div>
+</section>
+
+<section id="logos">
+<h2>Logo collection</h2>
+<p class="sub">12 brands, 12 different styles. Tap a logo to open its full brand kit.</p>
+<div class="grid" id="tiles"></div>
+</section>
+
+<section id="kit">
+<h2 id="kn"></h2>
+<p class="sub" id="ky"></p>
+<div class="kit">
+<div class="card"><h3>Logo</h3><small>Tap to animate</small><button class="logo" id="lg" aria-label="Animate logo"></button></div>
+<div class="card"><h3>Sketch to final</h3><small>Drag the slider</small><div class="cmp" id="cmp"></div><input type="range" min="0" max="100" value="50" id="rng" aria-label="Sketch to final"><div class="lab"><span>Final</span><span>Sketch</span></div></div>
+<div class="card"><h3>Colours</h3><small>Tap a colour to copy its code</small><div class="sw" id="sw"></div><div class="hint" id="msg"></div></div>
+<div class="card"><h3>Business card</h3><small>Front and back</small><div id="bc"></div></div>
+<div class="card"><h3>Social media post</h3><small>Square post for Instagram</small><div id="pp"></div></div>
+<div class="card wide"><h3>Banner</h3><small>For shop boards, websites and ads</small><div id="bn"></div></div>
+</div>
+</section>
+
+<section>
+<h2>Social media posts</h2>
+<p class="sub">Ready-to-post designs in three styles, matched to each brand.</p>
+<div class="feed" id="feed"></div>
+</section>
+
+<section>
+<h2>Banners</h2>
+<p class="sub">Wide designs for websites, hoardings and ads.</p>
+<div class="stack" id="bans"></div>
+</section>
+
+<section>
+<h2>How I work</h2>
+<div class="steps" style="margin-top:16px">
+<div class="step" style="--c:var(--pink)"><h3>Understand</h3><p>We talk about your business, customers and what makes you different.</p></div>
+<div class="step" style="--c:var(--yellow)"><h3>Sketch</h3><p>I draw rough ideas and show you the best directions.</p></div>
+<div class="step" style="--c:var(--cyan)"><h3>Design</h3><p>The chosen idea becomes a clean logo with colours and fonts.</p></div>
+<div class="step" style="--c:var(--violet)"><h3>Deliver</h3><p>You get all files for print and social media, plus a brand guide.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Kind words</h2>
+<p class="sub">Sample reviews. Real client words will replace these.</p>
+<div class="rev">
+<blockquote><p>Deepak understood our cafe in one meeting. The logo looks great on our cups.</p><cite>Owner, Orbit Cafe</cite></blockquote>
+<blockquote><p>Fast, patient and creative. Our gym finally looks professional.</p><cite>Founder, Peak Fitness</cite></blockquote>
+<blockquote><p>He gave us a full brand guide. Our packaging looks premium now.</p><cite>Director, Nova Jewels</cite></blockquote>
+</div>
+</section>
+
+<section id="contact" style="padding-top:8px">
+<div class="contact">
+<div><h2>Let's build your brand</h2>
+<p>5 years of experience in logo design, branding, print and social media.</p>
+<p>Email: <a href="mailto:deepuchaudhary0011@gmail.com">deepuchaudhary0011@gmail.com</a><br>Phone: <a href="tel:+918700310225">+91 87003 10225</a><br>Instagram: <a href="https://www.instagram.com/deepu_chaudhary_0" target="_blank" rel="noopener">@deepu_chaudhary_0</a><br>LinkedIn: <a href="https://www.linkedin.com/in/deepak-chaudhary-586765298" target="_blank" rel="noopener">Deepak on LinkedIn</a></p>
+<a class="btn alt" style="color:#fff;border-color:#fff" href="https://wa.me/918700310225?text=Hi%20Deepak%2C%20I%20need%20a%20logo">Message on WhatsApp</a></div>
+<div><input id="nm" placeholder="Your name" aria-label="Your name"><textarea id="ms" rows="4" placeholder="Tell me about your business and what you need" aria-label="Message"></textarea><a class="btn" id="send" href="mailto:deepuchaudhary0011@gmail.com" style="background:#0c0816">Send message</a></div>
+</div>
+</section>
+</main>
+<a class="wa" href="https://wa.me/918700310225?text=Hi%20Deepak%2C%20I%20need%20a%20logo">WhatsApp me</a>
+<footer>Deepak Chaudhary, Graphic Designer. All designs shown are sample work.</footer>
+<script>
+var P=[
+{n:"Orbit Cafe",y:"Cafe and food. Warm, friendly logo for a coffee shop.",f:"Pacifico",c:["#ff9f43","#ffd23f","#ff3d81","#2a1408"],h:"Fresh coffee, fresh mornings",o:"Buy 1 Get 1 on Mondays",s:'<path class="b" d="M18 38h54v22a27 27 0 01-27 27 27 27 0 01-27-27z"/><path class="a" d="M18 38h54v10H18z"/><path class="s" d="M72 48h6a11 11 0 010 22h-8M36 28c-6-6 6-8 0-14M54 28c-6-6 6-8 0-14"/>'},
+{n:"PEAK FITNESS",y:"Fitness. Strong, energetic mark for a gym.",f:"Bebas Neue",c:["#2de2e6","#a6ff3d","#ff3d81","#06222a"],h:"Your best shape starts today",o:"First week free",s:'<path class="b" d="M4 86 38 22l20 36 12-18 26 46z"/><path class="a" d="M30 86l26-30 6 14 16-18 10 34z"/><path class="c" d="M50 4 40 26h10l-6 18 18-26H52z"/>'},
+{n:"Dhun Studio",y:"Music. Sound-wave logo for a recording studio.",f:"Syne",c:["#ff3d81","#7b4dff","#ffd23f","#1b0a33"],h:"Make your sound loud",o:"Book a studio session",s:'<circle class="b" cx="50" cy="50" r="46"/><rect class="c" x="22" y="40" width="9" height="20" rx="4.5"/><rect class="c" x="35" y="28" width="9" height="44" rx="4.5"/><rect class="a" x="46" y="14" width="9" height="72" rx="4.5"/><rect class="c" x="59" y="30" width="9" height="40" rx="4.5"/><rect class="c" x="72" y="42" width="9" height="16" rx="4.5"/>'},
+{n:"Nova Jewels",y:"Jewellery. Elegant diamond mark with a classic serif.",f:"Playfair Display",c:["#ffd23f","#ff8fb8","#2de2e6","#2a0a1c"],h:"Shine on your big day",o:"Festive offer 20% off",s:'<path class="b" d="M26 14h48l22 26-46 50L4 40z"/><path class="a" d="M26 14h48L50 40z"/><path class="c" d="M4 40h92L50 90z" opacity=".6"/>'},
+{n:"Leaf and Co",y:"Skincare. Natural leaf mark for an organic brand.",f:"Playfair Display",c:["#7ee081","#d6ff5c","#ffb347","#0c2a1a"],h:"Skin care from nature",o:"New range is here",s:'<path class="b" d="M12 88C8 40 40 8 90 10c2 50-26 82-70 78z"/><path class="s" d="M14 86C34 62 52 44 74 28"/><path class="a" d="M38 62c10-2 18 2 22 10-12 4-20 0-22-10z"/>'},
+{n:"PixelPay",y:"Fintech. Pixel-grid icon for a payments app.",f:"Space Grotesk",c:["#4d8bff","#2de2ff","#ffd23f","#0a1233"],h:"Pay in one tap",o:"Zero fees this month",s:'<rect class="b" x="6" y="6" width="88" height="88" rx="24"/><rect class="a" x="24" y="24" width="23" height="23" rx="6"/><rect class="c" x="53" y="24" width="23" height="23" rx="6"/><rect class="a" x="24" y="53" width="23" height="23" rx="6" opacity=".5"/><rect class="a" x="53" y="53" width="23" height="23" rx="6"/>'},
+{n:"BITE BURGER",y:"Restaurant. Bold, playful burger logo.",f:"Bebas Neue",c:["#ff5a36","#ffd23f","#fff0c2","#2a0d05"],h:"Big taste, bigger bite",o:"Combo from Rs 149",s:'<path class="a" d="M10 46a40 32 0 0180 0z"/><rect class="c" x="6" y="52" width="88" height="10" rx="5"/><rect class="b" x="12" y="66" width="76" height="9" rx="4.5"/><path class="a" d="M14 79h72a8 8 0 01-8 10H22a8 8 0 01-8-10z"/>'},
+{n:"Kiddo Kingdom",y:"Kids school. Crown mark with a friendly, rounded font.",f:"Fredoka",c:["#ffd23f","#ff6fb5","#40d9ff","#28104a"],h:"Where learning is play",o:"Admissions open",s:'<path class="b" d="M10 74 16 28l24 22 10-30 10 30 24-22 6 46z"/><rect class="a" x="10" y="74" width="80" height="14" rx="7"/><circle class="c" cx="16" cy="24" r="7"/><circle class="c" cx="50" cy="14" r="7"/><circle class="c" cx="84" cy="24" r="7"/>'},
+{n:"Aarav and Co",y:"Legal. Shield with scales for a law firm.",f:"Playfair Display",c:["#e6c36a","#8aa4ff","#f4f0ff","#0d1630"],h:"Clear advice, strong case",o:"Free first consultation",s:'<path class="b" d="M50 4l38 12v30c0 24-16 40-38 50C28 86 12 70 12 46V16z"/><rect class="a" x="46" y="20" width="8" height="54" rx="3"/><rect class="a" x="28" y="28" width="44" height="7" rx="3"/><path class="c" d="M24 52h20L34 68zM56 52h20L66 68z"/>'},
+{n:"Zen Yoga",y:"Wellness. Calm lotus logo for a yoga studio.",f:"Syne",c:["#c79bff","#ff9ecb","#7ef0d0","#1e0f36"],h:"Breathe. Stretch. Reset.",o:"Join the morning batch",s:'<path class="b" d="M50 10C64 28 68 50 50 78 32 50 36 28 50 10z"/><path class="a" d="M8 36c26 0 38 16 42 42-28 0-42-14-42-42z"/><path class="c" d="M92 36C66 36 54 52 50 78c28 0 42-14 42-42z"/><path class="s" d="M14 90h72"/>'},
+{n:"Rocket Tech",y:"Startup. Rocket mark for a software company.",f:"Space Grotesk",c:["#ff6b3d","#7b4dff","#2de2e6","#120a2a"],h:"Launch your idea faster",o:"Start free trial",s:'<path class="b" d="M50 2c20 14 24 42 16 64H34C26 44 30 16 50 2z"/><circle class="c" cx="50" cy="36" r="9"/><path class="a" d="M34 52 12 74l4 12 18-8zM66 52l22 22-4 12-18-8z"/><path class="c" d="M42 72h16l-8 24z"/>'},
+{n:"URBAN WHEELS",y:"Cycles and bikes. Line-art logo with a bold font.",f:"Bebas Neue",c:["#2de2e6","#ff3d81","#ffd23f","#101018"],h:"Ride the city in style",o:"Test ride today",s:'<circle class="s" cx="22" cy="66" r="18"/><circle class="s" cx="78" cy="66" r="18"/><path class="t" d="M22 66l18-32h26l12 32M40 34l18 32"/><circle class="a" cx="62" cy="22" r="7"/>'}];
+var cur=0,$=function(i){return document.getElementById(i)};
+function V(p,m){var c=p.c;return '<svg viewBox="0 0 100 100" class="'+(m||"")+'" style="--a:'+c[0]+';--b:'+c[1]+';--c:'+c[2]+'">'+p.s+'</svg>'}
+function M(p,k){return '<svg viewBox="0 0 100 100" style="--a:'+k+';--b:'+k+';--c:'+k+'">'+p.s+'</svg>'}
+function L(p,k){return '<div class="lk" style="font-family:\''+p.f+'\',sans-serif">'+(k?M(p,k):V(p))+'<b>'+p.n+'</b></div>'}
+function Po(p,k){var c=p.c,bg=[c[3],c[0],"linear-gradient(145deg,"+c[1]+","+c[2]+")"][k],tx=k?c[3]:"#fff";
+return '<div class="post" style="background:'+bg+';color:'+tx+';font-family:\''+p.f+'\',sans-serif"><i style="background:'+c[k?1:2]+'"></i>'+L(p,k?c[3]:0)+'<h4>'+p.h+'</h4><span style="background:'+(k?c[3]:c[0])+';color:'+(k?"#fff":c[3])+'">'+p.o+'</span></div>'}
+function Ba(p,k){var c=p.c,l=k%2,bg=l?"linear-gradient(110deg,"+c[0]+","+c[1]+")":"linear-gradient(110deg,"+c[3]+" 55%,"+c[0]+"66)";
+return '<div class="ban" style="background:'+bg+';color:'+(l?c[3]:"#fff")+';font-family:\''+p.f+'\',sans-serif"><div><h4>'+p.h+'</h4><span style="background:'+(l?c[3]:c[0])+';color:'+(l?"#fff":c[3])+';font-family:\'DM Sans\'">'+p.o+'</span></div>'+(l?M(p,c[3]):V(p))+'</div>'}
+function Bc(p){var c=p.c,s=p.n.toLowerCase().replace(/[^a-z]/g,"");
+return '<div class="bc" style="background:'+c[3]+';color:#fff;align-items:center">'+L(p)+'</div><div class="bc" style="background:'+c[0]+';color:'+c[3]+';font-family:\'DM Sans\',sans-serif"><b style="font-size:17px">Rohan Mehta</b><span>Owner</span><span>+91 00000 00000</span><span>hello@'+s+'.in</span></div>'}
+function K(){var p=P[cur],c=p.c;
+$("kn").textContent=p.n.charAt(0)+p.n.slice(1).toLowerCase();$("ky").textContent=p.y;
+$("lg").style.background=c[3];$("lg").innerHTML=L(p);
+$("cmp").innerHTML='<i></i>'+V(p,"before")+V(p,"after");$("cmp").lastChild.setAttribute("class","after");
+$("rng").value=50;$("cmp").style.setProperty("--x","50%");
+$("sw").innerHTML=c.map(function(x){return '<button style="background:'+x+';color:'+(x==c[3]?"#fff":"#10091d")+'" data-c="'+x+'">'+x.toUpperCase()+'<span>Tap to copy</span></button>'}).join("");
+$("msg").textContent="";$("bc").innerHTML=Bc(p);$("pp").innerHTML=Po(p,cur%3);$("bn").innerHTML=Ba(p,cur);
+document.querySelectorAll(".tile").forEach(function(t,i){t.setAttribute("aria-pressed",i==cur)})}
+$("tiles").innerHTML=P.map(function(p,i){return '<button class="tile" data-i="'+i+'" style="background:'+p.c[3]+'" aria-label="'+p.n+'">'+L(p)+'</button>'}).join("");
+$("hr").innerHTML=P.slice(0,6).map(function(p){return '<span style="background:'+p.c[3]+'">'+V(p)+'</span>'}).join("");
+$("feed").innerHTML=[0,3,6,1,4,7].map(function(i,j){return Po(P[i],j%3)}).join("");
+$("bans").innerHTML=[2,5,8].map(function(i,j){return Ba(P[i],j)}).join("");
+$("tiles").onclick=function(e){var t=e.target.closest(".tile");if(t){cur=+t.dataset.i;K();$("kit").scrollIntoView()}};
+$("lg").onclick=function(){var s=$("lg");s.classList.remove("pop");void s.offsetWidth;s.classList.add("pop")};
+$("rng").oninput=function(){$("cmp").style.setProperty("--x",this.value+"%")};
+$("sw").onclick=function(e){var b=e.target.closest("button");if(!b)return;var c=b.dataset.c;$("msg").textContent="Colour code: "+c;
+try{navigator.clipboard.writeText(c).then(function(){$("msg").textContent="Copied "+c},function(){})}catch(x){}};
+function U(){$("send").href="mailto:deepuchaudhary0011@gmail.com?subject="+encodeURIComponent("Project enquiry from "+$("nm").value)+"&body="+encodeURIComponent($("ms").value)}
+$("nm").oninput=U;$("ms").oninput=U;
+K();
+</script></body></html>
